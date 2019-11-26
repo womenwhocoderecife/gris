@@ -18,7 +18,11 @@ Just to make sure that all environment is setted up run on command line
 
 If all are working lets clone your repository and then install the project dependencies
 
-`$ git clone https://github.com/womenwhocoderecife/gris.git $ cd gris $ yarn install`
+```
+    $ git clone https://github.com/womenwhocoderecife/gris.git
+    $ cd gris
+    $ yarn install
+```
 
 ## Available Scripts
 
