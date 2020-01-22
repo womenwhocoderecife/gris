@@ -7,10 +7,12 @@ import Creations from "./pages/creations";
 import Events from "./pages/events";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Banner from "./components/Banner";
 
 function App() {
   return (
     <Router>
+      <Banner/>
       <Navbar />
 
       <Switch>
