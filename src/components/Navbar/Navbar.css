@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap');
 
 #menu {
-    background-color: white;
+    background-color: #fff;
     height: 30px;
-    width: 100%;
-    padding: 10px;
+    padding-top: 20px;
     display: flex;
     justify-items: center;
-    justify-content: space-around;
+  justify-content: space-evenly;
     align-items: center;
     border-top: 10px solid #AB0606;
 }
 
 .menu-options {
-    padding-right: 35px;
+    margin-left: 50px;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Rubik';
     font-weight: 500;
     color: #AB0606;
 }
+
 
 .menu-options:hover {
     color: #EA6B0B;
@@ -28,7 +28,7 @@
 .doar {
     background-color: #E49600;
     color: #fff;
-    padding: 9px;
+    padding: 8px;
     border-radius: 5%;
 }
 
