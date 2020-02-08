@@ -1,5 +1,6 @@
 #whoWeAre{
     display: flex;
+    justify-content: center;
 }
 #whoWeAre p{
     padding: 5%;
