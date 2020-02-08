@@ -15,7 +15,6 @@ export default function Services() {
             frameborder: "0px",
             border: "none"
           }}
-          allowfullscreen=""
         ></iframe>
         <div className="map-description">
           <p>
