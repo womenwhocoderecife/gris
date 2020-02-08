@@ -2,11 +2,13 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .services-card {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    justify-items: center;
     align-items: center;
     text-transform: uppercase;
     font-family: 'Rubik';
@@ -16,5 +18,5 @@
 
 .services-card img {
     padding-bottom: 3%;
-    max-width: 70%;
+    max-width: 60%;
 }

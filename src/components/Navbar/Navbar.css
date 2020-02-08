@@ -8,7 +8,7 @@
     justify-items: center;
   justify-content: space-evenly;
     align-items: center;
-    border-top: 10px solid #AB0606;
+    border-top: 10px solid #000000;
 }
 
 .menu-options {
@@ -17,7 +17,7 @@
     text-transform: uppercase;
     font-family: 'Rubik';
     font-weight: 500;
-    color: #AB0606;
+    color: #000000;
 }
 
 
@@ -38,7 +38,7 @@
 
 .logo {
     width: 15%;
-    border-top: 10px solid #AB0606;
+    border-top: 10px solid #000000;
     border-radius: 50%;
     margin-bottom: 50px;
     display: block;
