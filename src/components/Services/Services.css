@@ -1,0 +1,19 @@
+section{
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Rubik';
+    font-size: 26px;
+    color: #565050;
+}
+
+.card img {
+    padding-bottom: 3%;
+}
