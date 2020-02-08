@@ -1,6 +1,6 @@
-section{
+#whoWeAre{
     display: flex;
 }
-p{
+#whoWeAre p{
     padding: 5%;
 }

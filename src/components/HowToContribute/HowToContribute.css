@@ -1,0 +1,51 @@
+#HowToContribute{
+    background: #EA6C05;
+    font-family: 'Rubik';
+    font-size: 1em;
+    line-height: 47px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    display: grid;
+    padding-bottom: 3%;
+    text-transform: uppercase;
+}
+
+#HowToContribute h2{
+    margin: 0;
+    padding-top: 3%;
+}
+
+#HowToContribute .icons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: baseline;
+    font-weight: 500;
+    padding-bottom: 2%;
+}
+
+#HowToContribute .icons img{
+    max-width: 50%;
+}
+
+#HowToContribute .icons-card{
+    display: grid;
+    justify-items: center;
+}
+
+#HowToContribute  button{
+    font-family: 'Cabin'; 
+    width: 22%;
+    height: 55px;
+    background: #FF9900;
+    border-radius: 10px;
+    border-color: #FF9900;
+    color: #FFFFFF;
+    font-size: 1.1em;
+    font-weight: bold;
+    justify-self: center;
+    outline: none;
+    text-transform: uppercase;
+}
+
