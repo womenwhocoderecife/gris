@@ -1,0 +1,26 @@
+section {
+  padding: 0px;
+  text-align: center;
+}
+
+.map {
+  width: 100%;
+}
+
+.map-title {
+  font-family: Rubik;
+  font-size: 40px;
+  color: #3e3939;
+  text-transform: uppercase;
+}
+
+.map-description {
+  font-family: Karla;
+  font-size: 15px;
+  text-align: center;
+  color: #464040;
+}
+
+.map-description p {
+    margin: 8px;
+}
