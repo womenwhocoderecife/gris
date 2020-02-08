@@ -4,20 +4,20 @@ import education from "../../assets/educacao.png";
 
 export default function Services() {
   return (
-    <section>
-      <div className='card'>
+    <section className='services'>
+      <div className='services-card'>
         <img src={education} alt="Criança tomando vacina" />
         saúde
       </div>
-      <div className='card'>
+      <div className='services-card'>
         <img src={education} alt="Criança tomando vacina" />
         saúde
       </div>
-      <div className='card'>
+      <div className='services-card'>
         <img src={education} alt="Criança tomando vacina" />
         saúde
       </div>
-      <div className='card'>
+      <div className='services-card'>
         <img src={education} alt="Criança tomando vacina" />
         saúde
       </div>
