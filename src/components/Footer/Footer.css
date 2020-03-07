@@ -1,5 +1,14 @@
-#footer{
-    width: 100%;
-    height: 30px;
-    background-color: #E86E09;
+#footer {
+  width: 100%;
+  height: 40px;
+  background-color: #a5876e;
+  color: #eeeeee;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

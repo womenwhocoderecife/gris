@@ -12,8 +12,8 @@ import Banner from "./components/Banner";
 function App() {
   return (
     <Router>
-      <Banner/>
       <Navbar />
+      <Banner/>
 
       <Switch>
         <Route exact path="/">

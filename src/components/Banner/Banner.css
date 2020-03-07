@@ -1,5 +1,19 @@
-.image {
-    display: block;
-    width: 100%;
-    
+.banner {
+  background-image: url("../../assets/banner.png");
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.description {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: justify;
+  max-width: 35%;
+  color: #ffffff;
 }

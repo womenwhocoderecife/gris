@@ -1,5 +1,5 @@
 #HowToContribute{
-    background: #EA6C05;
+    background: #BA902B;
     font-family: 'Rubik';
     font-size: 1em;
     line-height: 47px;
@@ -18,7 +18,7 @@
 
 #HowToContribute .icons{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     align-items: baseline;
     font-weight: 500;
@@ -32,20 +32,5 @@
 #HowToContribute .icons-card{
     display: grid;
     justify-items: center;
-}
-
-#HowToContribute  button{
-    font-family: 'Cabin'; 
-    width: 22%;
-    height: 55px;
-    background: #FF9900;
-    border-radius: 10px;
-    border-color: #FF9900;
-    color: #FFFFFF;
-    font-size: 1.1em;
-    font-weight: bold;
-    justify-self: center;
-    outline: none;
-    text-transform: uppercase;
 }
 

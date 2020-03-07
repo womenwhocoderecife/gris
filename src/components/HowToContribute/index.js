@@ -1,29 +1,33 @@
 import React from 'react'
 import './HowToContribute.css'
 
-import iconeBazar from '../../assets/IconeBazar.png'
-import IconeDoaoces from '../../assets/IconeDoaoces.png'
-import IconeLojinha from '../../assets/IconeLojinha.png'
+import iconeVoluntario from '../../assets/icon-voluntario.png'
+import iconeDoaoces from '../../assets/icon-doacoes.png'
+import iconeBazar from '../../assets/icon-bazar.png'
+import iconeLojinha from '../../assets/icon-lojinha.png'
 
 export default function HowToContribute() {
     return (
         <section id="HowToContribute">
            <h2>Como contribuir</h2>
            <div className="icons">
+              <div className="icons-card" title="Voluntário">
+                <img src={iconeVoluntario} alt="Ícone volutário" />
+                Voluntário
+               </div>
               <div className="icons-card" title="Doações">
-                <img src={IconeDoaoces} alt="ícone doações" />
+                <img src={iconeDoaoces} alt="Ícone doações" />
                 Doações
                </div>
                <div className="icons-card" title="Bazar">
-                <img src={iconeBazar} alt="ícone bazar" />
+                <img src={iconeBazar} alt="Ícone bazar" />
                 Bazar
                </div>
                <div className="icons-card" title="Lojinha">
-                <img src={IconeLojinha} alt="ícone lojinha" />
+                <img src={iconeLojinha} alt="Ícone lojinha" />
                 Lojinha
                </div>
            </div>
-            <button type="button">Quero ser voluntário</button>
         </section>
     )
 }
