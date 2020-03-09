@@ -1,22 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap');
 
-.menu {
+.header {
     height: 130px;
+    width: 100%;
     display: flex;
     justify-items: center;
     justify-content: space-around;
     align-items: center;
+    list-style: none;
 }
 
-.menu-itens {
-    margin-left: 20px;
+.menu-itens {    
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Rubik';
     font-weight: 500;
     color: #EA6B0B;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.menu-itens:hover {
+.menu-itens li {
+    margin: 0 10px;
+}
+
+.sub-menu-itens {
+    list-style: none;
+}
+
+.menu-itens li:hover  {
     color: #BA902B;
 }
+
+li ul {
+	top: 0;
+	display: none;
+}
+
+li:hover ul { display: block; color: #EA6B0B; }
+
+.menu-itens ul li {
+    background: #fff;
+    text-align: center;
+	}
