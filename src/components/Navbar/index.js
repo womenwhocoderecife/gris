@@ -25,6 +25,7 @@ export default function Navbar() {
           </li>
           <li to="/">
             Quero Contribuir
+            {/*
             <ul className="sub-menu-itens">
               <li>
                 Quero Doar
@@ -33,6 +34,7 @@ export default function Navbar() {
                 Quero ser Voluntário
               </li>
             </ul>
+            */}
           </li>
         </ul>
       </div>

@@ -41,6 +41,7 @@ li ul {
 li:hover ul { display: block; color: #EA6B0B; }
 
 .menu-itens ul li {
-    background: #fff;
+    background: #FCFCFC;
     text-align: center;
+    width: 229px;
 	}

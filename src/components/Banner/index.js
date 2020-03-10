@@ -8,7 +8,7 @@ export default function Banner() {
         title="video"
         src="https://www.youtube.com/embed/K4MiWgWoVc4?start=24"
         style={{
-          width: "560px",
+          width: "500px",
           height: "315px",
           frameborder: "none",
           allow:
