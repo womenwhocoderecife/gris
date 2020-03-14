@@ -1,8 +1,15 @@
 import React from "react";
-import HowToContribute from "../../components/HowToContribute";
-import Services from "../../components/Services";
-import WhereWeAre from "../../components/WhereWeAre";
+import HowToContribute from "./Components/HowToContribute";
+import Services from "./Components/Services";
+import WhereWeAre from "./Components/WhereWeAre";
+import Banner from "./Components/Banner";
 
 export default function Home() {
-  return <div><Services /><HowToContribute /><WhereWeAre /></div>;
+    return (
+        <div>
+            <Banner/>
+            <Services/>
+            <HowToContribute/>
+            <WhereWeAre/>
+        </div>);
 }

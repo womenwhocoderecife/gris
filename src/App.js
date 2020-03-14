@@ -1,38 +1,42 @@
 import React from "react";
-import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Home from "./pages/Home";
-import Services from "./pages/services";
-import Creations from "./pages/creations";
-import Events from "./pages/events";
+import About from "./pages/About";
+import Actions from "./pages/Actions";
+import Calendar from "./pages/Calendar";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Banner from "./components/Banner";
+import Donation from "./pages/Donation";
+import Volunteer from "./pages/Volunteer";
 
 function App() {
-  return (
-    <Router>
-      <Navbar />
-      <Banner/>
+    return (
+        <Router>
+            <Navbar/>
+            <Switch>
+                <Route exact path="/">
+                    <Home/>
+                </Route>
+                <Route exact path="/quemsomos">
+                    <About/>
+                </Route>
+                <Route exact path="/acoes">
+                    <Actions/>
+                </Route>
+                <Route exact path="/calendario">
+                    <Calendar/>
+                </Route>
+                <Route exact path="/querodoar">
+                    <Donation/>
+                </Route>
+                <Route exact path="/queroservoluntario">
+                    <Volunteer/>
+                </Route>
+            </Switch>
 
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/servicos">
-          <Services />
-        </Route>
-        <Route exact path="/criacoes">
-          <Creations />
-        </Route>
-        <Route exact path="/eventos">
-          <Events />
-        </Route>
-      </Switch>
-
-      <Footer />
-    </Router>
-  );
+            <Footer/>
+        </Router>
+    );
 }
 
 export default App;

@@ -1,0 +1,13 @@
+.banner {
+    color: white;
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}

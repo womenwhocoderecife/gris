@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap');
 
 .header {
-    height: 130px;
+    height: 110px;
     width: 100%;
     display: flex;
     justify-items: center;
@@ -10,38 +10,38 @@
     list-style: none;
 }
 
-.menu-itens {    
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Rubik';
-    font-weight: 500;
-    color: #EA6B0B;
+.menu-itens {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
 }
 
+.menu-itens a,
 .menu-itens li {
-    margin: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: #EA6B0B;
+    margin-left: 10px;
 }
 
 .sub-menu-itens {
+    display: none;
     list-style: none;
 }
 
-.menu-itens li:hover  {
+.menu-itens li a:hover {
     color: #BA902B;
 }
 
-li ul {
-	top: 0;
-	display: none;
+li:hover > .sub-menu-itens {
+    display: block;
+    color: #EA6B0B;
 }
 
-li:hover ul { display: block; color: #EA6B0B; }
-
-.menu-itens ul li {
+.sub-menu-itens {
     background: #FCFCFC;
     text-align: center;
     width: 229px;
-	}
+}

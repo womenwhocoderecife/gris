@@ -1,6 +1,6 @@
-#HowToContribute{
+#HowToContribute {
+    font-family: 'Rubik', sans-serif;
     background: #BA902B;
-    font-family: 'Rubik';
     font-size: 1em;
     line-height: 47px;
     color: #FFFFFF;
@@ -11,19 +11,18 @@
     text-transform: uppercase;
 }
 
-#HowToContribute h2{
-    margin: 0;
+#HowToContribute h2 {
+    font-family: 'Rubik', sans-serif;
     padding-top: 3%;
-    font-family: Rubik;
     font-weight: normal;
     font-size: 25px;
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 35px;
+    margin: 0 0 35px;
 }
 
-#HowToContribute .icons{
+#HowToContribute .icons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
@@ -32,11 +31,11 @@
     padding-bottom: 2%;
 }
 
-#HowToContribute .icons img{
+#HowToContribute .icons img {
     max-width: 50%;
 }
 
-#HowToContribute .icons-card{
+#HowToContribute .icons-card {
     display: grid;
     justify-items: center;
 }
