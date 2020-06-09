@@ -1,0 +1,41 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  color: #3e3939;
+}
+
+.services-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Rubik";
+  font-size: 20px;
+  color: #565050;
+}
+
+.card img {
+  padding-bottom: 3%;
+  max-width: 60%;
+}

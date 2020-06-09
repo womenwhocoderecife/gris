@@ -1,0 +1,20 @@
+.banner {
+    background-image: url("../../../../assets/images/banner.png");
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.description {
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+    max-width: 50%;
+    color: #ffffff;
+}

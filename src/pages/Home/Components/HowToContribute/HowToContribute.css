@@ -1,0 +1,42 @@
+#HowToContribute {
+    font-family: 'Rubik', sans-serif;
+    background: #BA902B;
+    font-size: 1em;
+    line-height: 47px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    display: grid;
+    padding-bottom: 3%;
+    text-transform: uppercase;
+}
+
+#HowToContribute h2 {
+    font-family: 'Rubik', sans-serif;
+    padding-top: 3%;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 35px;
+}
+
+#HowToContribute .icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: baseline;
+    font-weight: 500;
+    padding-bottom: 2%;
+}
+
+#HowToContribute .icons img {
+    max-width: 50%;
+}
+
+#HowToContribute .icons-card {
+    display: grid;
+    justify-items: center;
+}
+
