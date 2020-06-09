@@ -27,22 +27,19 @@ export default function Navbar() {
               <a href="/">Início</a>
             </li>
             <li>
-              <a href="/quemSomos">Quem somos</a>
+              <a href="/quemsomos">Quem somos</a>
             </li>
             <li>
               <a href="/acoes">Ações</a>
             </li>
             <li>
-              <a href="/calendario">Calendrário</a>
-            </li>
-            <li>
-              <a href="/calendario">Quero contribuir &darr;</a>
+              <a href="#">Quero contribuir &darr;</a>
               <ul>
                 <li>
-                  <a href="/doar">Quero doar</a>
+                  <a href="/querodoar">Quero doar</a>
                 </li>
                 <li>
-                  <a href="/voluntario">Quero ser voluntário</a>
+                  <a href="/queroservoluntario">Quero ser voluntário</a>
                 </li>
               </ul>
             </li>
