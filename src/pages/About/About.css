@@ -1,6 +1,6 @@
 .about-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 60px 0 ;
     justify-content: space-between;
 }
@@ -8,11 +8,25 @@
 .about-description{
     padding: 0 20px;
     text-align: justify;
-    max-width: 50%;
+    max-width: 100%;
 }
 
 .image-about{
-    padding: 0 40px;
+    padding: 40px 40px 0px 40px;
     align-self: center;
     max-width: 500px;
+}
+
+@media (min-width: 912px) {
+
+    .about-container{
+        flex-direction: row;
+    }
+
+    .about-description{
+        padding: 0 20px;
+        text-align: justify;
+        max-width: 50%;
+    }
+
 }
