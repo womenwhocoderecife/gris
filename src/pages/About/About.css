@@ -12,10 +12,19 @@
 }
 
 .image-about{
-    padding: 40px 40px 0px 40px;
+    padding: 40px 10px 0px 10px;
     align-self: center;
     max-width: 500px;
 }
+
+@media (min-width: 400){
+    .image-about{
+        padding: 0px 10px;
+        align-self: center;
+        max-width: 500px;
+    }
+}
+
 
 @media (min-width: 912px) {
 
@@ -28,5 +37,12 @@
         text-align: justify;
         max-width: 50%;
     }
+
+    .image-about{
+        padding: 0 40px;
+        align-self: center;
+        max-width: 500px;
+    }
+
 
 }
