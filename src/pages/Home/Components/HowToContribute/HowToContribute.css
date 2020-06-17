@@ -1,42 +1,56 @@
-#HowToContribute {
-    font-family: 'Rubik', sans-serif;
-    background: #BA902B;
-    font-size: 1em;
-    line-height: 47px;
-    color: #FFFFFF;
-    text-align: center;
-    width: 100%;
+.how-to-contribute {
+  display: grid;
+  background-color: #e49600;
+  padding: 5%;
+  margin-top: 44px;
+}
+
+.how-to-contribute h2 {
+  text-align: center;
+  font-family: "Rubik";
+  line-height: 47px;
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 44px;
+  margin-bottom: 44px;
+}
+
+.how-to-contribute .icons {
+  display: grid;
+  grid-gap: 24px;
+  margin-left: 36px;
+  margin-right: 14px;
+}
+
+@media (min-width: 400px) {
+  .how-to-contribute .icons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 912px) {
+  .how-to-contribute {
     display: grid;
-    padding-bottom: 3%;
-    text-transform: uppercase;
-}
+  }
 
-#HowToContribute h2 {
-    font-family: 'Rubik', sans-serif;
-    padding-top: 3%;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 40px;
+  .how-to-contribute h2 {
     text-align: center;
+    font-family: "Rubik";
+    line-height: 47px;
+    color: #fff;
+    font-size: 1.5em;
     text-transform: uppercase;
-    margin: 0 0 35px;
-}
+    margin: 0;
+    margin-bottom: 44px;
+  }
 
-#HowToContribute .icons {
+  .how-to-contribute .icons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-    align-items: baseline;
-    font-weight: 500;
-    padding-bottom: 2%;
+    grid-gap: 24px;
+    margin-left: 36px;
+    margin-right: 14px;
+  }
 }
-
-#HowToContribute .icons img {
-    max-width: 50%;
-}
-
-#HowToContribute .icons-card {
-    display: grid;
-    justify-items: center;
-}
-

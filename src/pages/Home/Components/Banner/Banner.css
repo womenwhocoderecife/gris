@@ -1,20 +1,38 @@
 .banner {
-    background-image: url("../../../../assets/images/banner.png");
-    width: 100%;
-    height: auto;
-    padding: 50px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  display: grid;
+  padding: 5%;
+  min-height: 520px;
+  height: 100%;
+  background-repeat: round round;
+  background-image: linear-gradient(#f5ad4b, #ea6b0b);
+}
+
+.banner .banner-video iframe {
+  width: 100%;
+  height: 100%;
 }
 
 .description {
-    font-family: Rubik, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
-    text-align: justify;
-    max-width: 50%;
-    color: #ffffff;
+  font-family: "Rubik";
+  color: #fff;
+  font-size: 1em;
+  line-height: 21px;
+  text-align: justify;
+}
+
+@media (min-width: 912px) {
+  .banner {
+    background-image: url("../../../../assets/images/banner.png");
+    background-repeat: no-repeat;
+    min-height: 520px;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    padding: 5%;
+    grid-column-gap: 40px;
+  }
+
+  .banner .banner-video iframe {
+    width: 100%;
+    height: 95%;
+  }
 }

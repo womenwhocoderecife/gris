@@ -1,33 +1,46 @@
-import React from 'react'
-import './HowToContribute.css'
+import React from "react";
+import "./HowToContribute.css";
+import Card from "../Card/index";
 
-import iconeVoluntario from '../../../../assets/images/icon-voluntario.png'
-import iconeDoaoces from '../../../../assets/images/icon-doacoes.png'
-import iconeBazar from '../../../../assets/images/icon-bazar.png'
-import iconeLojinha from '../../../../assets/images/icon-lojinha.png'
+import iconeVoluntario from "../../../../assets/images/icon-voluntario.png";
+import iconeDoacoes from "../../../../assets/images/icon-doacoes.png";
+import iconeBazar from "../../../../assets/images/icon-bazar.png";
+import iconeLojinha from "../../../../assets/images/icon-lojinha.png";
 
 export default function HowToContribute() {
-    return (
-        <section id="HowToContribute">
-            <h2>Como contribuir</h2>
-            <div className="icons">
-                <div className="icons-card" title="Voluntário">
-                    <img src={iconeVoluntario} alt="Ícone volutário"/>
-                    Voluntário
-                </div>
-                <div className="icons-card" title="Doações">
-                    <img src={iconeDoaoces} alt="Ícone doações"/>
-                    Doações
-                </div>
-                <div className="icons-card" title="Bazar">
-                    <img src={iconeBazar} alt="Ícone bazar"/>
-                    Bazar
-                </div>
-                <div className="icons-card" title="Lojinha">
-                    <img src={iconeLojinha} alt="Ícone lojinha"/>
-                    Lojinha
-                </div>
-            </div>
-        </section>
-    )
+  return (
+    <section className="how-to-contribute">
+      <h2>Como contribuir</h2>
+      <div className="icons">
+        <Card
+          image={iconeVoluntario}
+          text="Voluntário"
+          linkTo="/voluntario"
+          textColor="#FFF"
+          width="44%"
+        />
+        <Card
+          image={iconeDoacoes}
+          text="Doações"
+          linkTo="/doar"
+          textColor="#FFF"
+          width="44%"
+        />
+        <Card
+          image={iconeBazar}
+          text="Bazar"
+          linkTo="/acoes"
+          textColor="#FFF"
+          width="44%"
+        />
+        <Card
+          image={iconeLojinha}
+          text="Lojinha"
+          linkTo="/acoes"
+          textColor="#FFF"
+          width="44%"
+        />
+      </div>
+    </section>
+  );
 }
