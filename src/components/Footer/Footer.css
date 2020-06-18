@@ -12,3 +12,11 @@
     align-items: center;
     justify-content: center;
 }
+
+.link {
+    color: #eeeeee;
+}
+
+@media (max-width: 912px){
+    
+}

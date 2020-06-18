@@ -52,3 +52,28 @@ section {
 .social-itens img {
     margin: 0 5px 0 0;
 }
+
+.map iframe{
+    width: 60%;
+    height: 300px;
+    border: none;
+    frameborder: 0px;
+                    
+}
+
+@media (max-width: 912px){
+    .map{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .map iframe{
+        width: 100%;
+    }
+
+    .map-description{
+        margin: 0px;
+    }
+
+}
