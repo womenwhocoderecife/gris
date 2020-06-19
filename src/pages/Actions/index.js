@@ -6,7 +6,7 @@ import './Actions.css'
 export default function Creations() {
     return (
         <section>
-            <Banner/>
+            <div className="title">AÇÕES</div>
             <Card/>
         </section>
     );
