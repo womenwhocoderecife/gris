@@ -3,7 +3,7 @@ import "./Banner.css";
 
 export default function Banner() {
   return (
-    <section className="banner">
+    <section className="home-banner">
       <div className="banner-video">
         <iframe
           src="https://www.youtube.com/embed/4euEVkkLVYY"

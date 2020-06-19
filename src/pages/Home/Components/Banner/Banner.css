@@ -1,4 +1,4 @@
-.banner {
+.home-banner {
   display: grid;
   padding: 5%;
   min-height: 520px;
@@ -7,7 +7,7 @@
   background-image: linear-gradient(#f5ad4b, #ea6b0b);
 }
 
-.banner .banner-video iframe {
+.home-banner .banner-video iframe {
   width: 100%;
   height: 100%;
 }
@@ -21,7 +21,7 @@
 }
 
 @media (min-width: 912px) {
-  .banner {
+  .home-banner {
     background-image: url("../../../../assets/images/banner.png");
     background-repeat: no-repeat;
     min-height: 520px;
@@ -31,7 +31,7 @@
     grid-column-gap: 40px;
   }
 
-  .banner .banner-video iframe {
+  .home-banner .banner-video iframe {
     width: 100%;
     height: 95%;
   }
