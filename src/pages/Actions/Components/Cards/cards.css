@@ -1,12 +1,6 @@
-.cards{
+.action-card{
    border-radius: 10%;
-   display: flex;
-   margin: 3% 0%;
-
-}
-
-.fix {
-    margin-left: -30%;
+   margin: 3% 0% 3% 2%;
 }
 
 .card-img {
@@ -18,12 +12,8 @@
 }
 
 .card-info{
-    margin-left: 2%;
     font-family: 'Rubik', sans-serif;
     text-align: left;
-    width: 75%;
+  
 }
 
-.card-title {
-    font-weight: 700;
-}

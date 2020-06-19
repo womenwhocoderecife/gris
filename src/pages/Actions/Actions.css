@@ -1,3 +1,7 @@
 .card-services{
     /* margin:100px; */
 }
+
+.cards-actions {
+  display: flex;
+}
