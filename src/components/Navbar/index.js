@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./navbar.css";
 
 import logo from "../../assets/images/logo-horizontal.png";
@@ -24,22 +25,41 @@ export default function Navbar() {
         <ul className="menu">
           <ul>
             <li>
-              <a href="/">Início</a>
+              <NavLink exact={true} activeClassName="is-active" to="/">
+                Início
+              </NavLink>
+            </li>
+
+            <li>
+              <NavLink exact={true} activeClassName="is-active" to="/quemsomos">
+                Quem somos
+              </NavLink>
             </li>
             <li>
-              <a href="/quemsomos">Quem somos</a>
-            </li>
-            <li>
-              <a href="/acoes">Ações</a>
+              <NavLink exact={true} activeClassName="is-active" to="/acoes">
+                Ações
+              </NavLink>
             </li>
             <li>
               <a href="#">Quero contribuir &darr;</a>
               <ul>
                 <li>
-                  <a href="/querodoar">Quero doar</a>
+                  <NavLink
+                    exact={true}
+                    activeClassName="is-active"
+                    to="/querodoar"
+                  >
+                    Quero doar
+                  </NavLink>
                 </li>
                 <li>
-                  <a href="/queroservoluntario">Quero ser voluntário</a>
+                  <NavLink
+                    exact={true}
+                    activeClassName="is-active"
+                    to="/queroservoluntario"
+                  >
+                    Quero ser voluntário
+                  </NavLink>
                 </li>
               </ul>
             </li>

@@ -25,6 +25,10 @@
   text-align: center;
 }
 
+nav li .is-active {
+  color: #ba902b;
+}
+
 nav li a:hover,
 nav .menu-btn:hover {
   color: #ba902b;
@@ -155,6 +159,10 @@ nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     font-size: 1rem;
     line-height: 26px;
     color: #ea6b0b;
+  }
+
+  nav li .is-active {
+    color: #ba902b;
   }
 
   .menu li:hover ul,
