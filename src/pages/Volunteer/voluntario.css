@@ -92,6 +92,8 @@
   justify-content: center;
   border: none;
   box-shadow: 2px 2px #cccccc82;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 .volunteer-button:active {
@@ -123,7 +125,5 @@
 
   .volunteer-button {
     width: 20%;
-    margin-bottom: 5%;
-    margin-top: 5%;
   }
 }
