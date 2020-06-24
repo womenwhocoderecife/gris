@@ -1,10 +1,16 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React, { useEffect } from "react";
+import { NavLink, useLocation } from "react-router-dom";
 import "./navbar.css";
 
 import logo from "../../assets/images/logo-horizontal.png";
 
-export default function Navbar() {
+export default function Navbar(props) {
+  const menuBtn = React.useRef();
+  let location = useLocation();
+  useEffect(() => {
+    menuBtn.current.checked = false;
+  }, [location.pathname]);
+
   return (
     <div className="navbar">
       <div className="logo">
@@ -18,7 +24,12 @@ export default function Navbar() {
       </div>
 
       <nav>
-        <input className="menu-btn" type="checkbox" id="menu-btn" />
+        <input
+          className="menu-btn"
+          type="checkbox"
+          id="menu-btn"
+          ref={menuBtn}
+        />
         <label className="menu-icon" htmlFor="menu-btn">
           <span className="navicon"></span>
         </label>
@@ -41,7 +52,7 @@ export default function Navbar() {
               </NavLink>
             </li>
             <li>
-              <a href="#">Quero contribuir &darr;</a>
+              <a href="/querodoar">Quero contribuir &darr;</a>
               <ul>
                 <li>
                   <NavLink

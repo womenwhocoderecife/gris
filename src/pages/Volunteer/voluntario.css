@@ -1,0 +1,129 @@
+.volunteer {
+  display: flex;
+  flex-direction: column;
+}
+
+.volunteer h2 {
+  font-family: "Rubik";
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #543301;
+}
+.volunteer input {
+  outline: none;
+}
+
+.personal-data {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10% 0 10%;
+}
+
+.personal-data input {
+  width: 100%;
+  height: 53px;
+  background-color: rgba(196, 196, 196, 0.13);
+  border: none;
+  margin-bottom: 10px;
+  color: #747373;
+  font-size: 1em;
+  font-family: "Rubik";
+  border-radius: 7px;
+  padding-left: 2%;
+}
+
+.activities {
+  width: 100%;
+  padding: 5% 10% 0 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.activity {
+  display: flex;
+  margin-bottom: 6%;
+  font-size: 1em;
+  font-family: "Rubik";
+  color: #000000;
+}
+
+.activity input {
+  height: 1.5em;
+  width: 1.5em;
+  vertical-align: middle;
+  margin: 0 0.4em 0.4em 0;
+  border: 2px solid #000000;
+  background: #fff;
+  -webkit-appearance: none;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.activity input[type="checkbox"]:not(:disabled):hover {
+  border-color: #ea6b0b;
+}
+
+.activity input[type="checkbox"]:checked {
+  border-color: #ea6b0b;
+}
+
+.activity input[type="checkbox"]:checked:before {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  content: "\2713";
+  -webkit-margin-start: 0;
+  margin-left: 2px;
+  font-size: 0.9em;
+}
+
+.volunteer-button {
+  background: #d1a611;
+  border-radius: 10px;
+  width: 30%;
+  font-family: "Cabin";
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #fff;
+  padding: 1% 0;
+  outline: none;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  border: none;
+  box-shadow: 2px 2px #cccccc82;
+}
+
+.volunteer-button:active {
+  border: none;
+}
+
+.volunteer-button:hover {
+  color: #543301;
+}
+
+@media (min-width: 912px) {
+  .volunteer {
+    flex-direction: row;
+  }
+
+  .personal-data {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 2.5% 0 10%;
+  }
+
+  .activities {
+    width: 50%;
+    padding: 5% 10% 0 2.5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .volunteer-button {
+    width: 20%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+}
