@@ -49,8 +49,18 @@ section {
     max-height: 26px;
 }
 
+.social-itens  {
+    display : flex ;
+    flex-direction: row;
+    margin: 0px 0px 0px 5px;
+}
+
 .social-itens img {
-    margin: 0 5px 0 0;
+    width: 5%;
+    height: 5%;
+    margin: 0px 10px 0px 0px;
+    min-width: 30px;
+    min-height: 30px;
 }
 
 .map iframe{
