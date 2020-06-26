@@ -26,7 +26,7 @@ export default function Services() {
           </div>
           <div className="map-description-itens">
             <img src={email} alt="Ícone de um @" />
-            <p>contato@gris.com.br</p>
+            <p>grisespacosolidario@gmail.com</p>
           </div>
           <div className="map-description-itens">
             <img src={phone} alt="Ícone de telefone" />
