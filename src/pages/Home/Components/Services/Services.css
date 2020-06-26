@@ -51,3 +51,13 @@
     margin-right: 14px;
   }
 }
+
+@media (min-width: 1919px) {
+  .services {
+    padding: 2%;
+  }
+
+  .services .services-card {
+    margin-top: 8%;
+  }
+}

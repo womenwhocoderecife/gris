@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-self: baseline;
 }
 .card label:hover {
   color: #ea6b0b;
@@ -36,6 +35,9 @@
 }
 
 @media (min-width: 912px) {
+  .card {
+    align-self: baseline;
+  }
   .card label:hover {
     color: #ea6b0b;
     cursor: pointer;
