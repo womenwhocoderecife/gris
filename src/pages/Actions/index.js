@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Components/Cards"
+import PageLayout from "../../components/PageLayout";
 import './Actions.css'
 import actions1 from '../../assets/images/card1.png';
 import actions2 from '../../assets/images/card2.png';
@@ -8,7 +9,7 @@ import actions3 from '../../assets/images/card3.png';
 export default function Creations() {
     return (
         <section>
-            <div className="title">Ações</div>
+            <PageLayout title="Ações"></PageLayout>
             <div className='cards-actions'>
             <Card
              image={actions1}
