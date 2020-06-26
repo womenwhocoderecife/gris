@@ -23,7 +23,6 @@
 @media (min-width: 912px) {
   .home-banner {
     background-image: url("../../../../assets/images/banner.png");
-    background-repeat: no-repeat;
     min-height: 520px;
     display: grid;
     grid-template-columns: 49% 49%;

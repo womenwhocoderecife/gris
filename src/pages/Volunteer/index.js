@@ -12,40 +12,38 @@ export default function Volunteer() {
 
   const handleChange = (event) => {
     const auxValues = { ...values };
-    if (event.target.value.trim() === "") {
-      event.target.setCustomValidity("Preencha este campo.");
-    } else {
-      event.target.setCustomValidity("");
-    }
+    event.target.value.trim() === ""
+      ? event.target.setCustomValidity("Preencha este campo.")
+      : event.target.setCustomValidity("");
+
     auxValues[event.target.name] = event.target.value;
     setValues(auxValues);
   };
 
   const handleCheckboxChange = (event) => {
-    if (selectedActivities.includes(event.target.value)) {
-      selectedActivities = selectedActivities.filter(
-        (activity) => activity !== event.target.value
-      );
-    } else {
-      selectedActivities.push(event.target.value);
-    }
+    selectedActivities.includes(event.target.value)
+      ? (selectedActivities = selectedActivities.filter(
+          (activity) => activity !== event.target.value
+        ))
+      : selectedActivities.push(event.target.value);
+
     values.atividades = selectedActivities.join(", ");
     setValues(values);
   };
 
   const clearForm = () => {
-    document.getElementById("contato").reset();
+    document.querySelector("#celular").value = "";
+    document.querySelector("#contato").reset();
   };
 
   const handleSubmit = async (event) => {
     event.preventDefault();
     setLoading(true);
     const response = await sendMail(values);
-    if (response?.text === "OK") {
-      alert("Enviado com sucesso!");
-    } else {
-      alert("Tente mais tarde!");
-    }
+    response?.text === "OK"
+      ? alert("Enviado com sucesso!")
+      : alert("Tente mais tarde!");
+
     clearForm();
     setLoading(false);
   };
@@ -77,6 +75,7 @@ export default function Volunteer() {
               required
               mask="(99) 99999-9999"
               onChange={handleChange}
+              id="celular"
             />
             <input
               type="email"

@@ -1,0 +1,8 @@
+.app-container {
+  min-height: 100vh;
+  position: relative;
+}
+
+.pages {
+  padding-bottom: 100px;
+}
