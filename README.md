@@ -6,15 +6,15 @@ Site: http://grissolidario.com.br/
 
 ## EQUIPE
 
-Anna Gabriela Carvalho
-Dariany Diniz
-Elaine Cruz
-Giullia Maranhão
-Janayna Velozo
-Morgana Galamba
-Nelkisa Matias
-Thaysa Gomes
-Willany Silva
+* Anna Gabriela Carvalho
+* Dariany Diniz
+* Elaine Cruz
+* Giullia Maranhão
+* Janayna Velozo
+* Morgana Galamba
+* Nelkisa Matias
+* Thaysa Gomes
+* Willany Silva
 
 ## How start working
 
