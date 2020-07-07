@@ -1,5 +1,5 @@
 import React from "react";
-import "./actions.css";
+import "./index.css";
 import PageLayout from "../../components/PageLayout";
 
 import acoes from "../../assets/images/actions-1.jpg";

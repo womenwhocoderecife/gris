@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import "./navbar.css";
+import "./index.css";
 
 import logo from "../../assets/images/logo-horizontal.png";
 

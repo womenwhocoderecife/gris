@@ -1,7 +1,7 @@
 import React from "react";
 import PageLayout from "../../components/PageLayout";
 import Title from "../../components/Title";
-import "./donation.css";
+import "./index.css";
 
 export default function Donation() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "./sobre.css";
+import "./index.css";
 import PageLayout from "../../components/PageLayout";
 import imagem from "../../assets/images/imagem-about.png";
 

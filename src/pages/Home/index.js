@@ -18,7 +18,7 @@ import facebook from "../../assets/images/icon-fb.png";
 import instagram from "../../assets/images/icon-ig.png";
 import youtube from "../../assets/images/icon-yt.png";
 
-import "./home.css";
+import "./index.css";
 import Title from "../../components/Title";
 
 export default function Home() {

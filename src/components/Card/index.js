@@ -1,5 +1,5 @@
 import React from "react";
-import "./Card.css";
+import "./index.css";
 
 export default function Card({ image, text, linkTo, textColor, width }) {
   return (

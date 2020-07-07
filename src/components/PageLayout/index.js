@@ -1,5 +1,5 @@
 import React from "react";
-import "./PageLayout.css";
+import "./index.css";
 
 export default function PageLayout(props) {
   return (
