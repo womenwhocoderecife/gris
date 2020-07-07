@@ -1,0 +1,48 @@
+.what2Donate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-left: 10%;
+  padding-right: 10%;
+  flex-wrap: wrap;
+  color: #565050;
+  font-family: "Rubik", "sans-serif";
+}
+.textBody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  line-height: 150%;
+  font-family: "Rubik", "sans-serif";
+  margin-top: -0.4%;
+}
+.how2Donate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-left: 10%;
+  padding-right: 10%;
+  flex-wrap: wrap;
+  color: #565050;
+  font-family: "Rubik", "sans-serif";
+  margin-top: -1%;
+  margin-bottom: -0.15%;
+}
+.account {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10%;
+  padding-bottom: 5%;
+  text-align: left;
+  color: #565050;
+  font-family: "Rubik", "sans-serif";
+}
+.caixa {
+  font-family: "Rubik", "sans-serif";
+  font-weight: bold;
+  margin-bottom: -0.02%;
+}

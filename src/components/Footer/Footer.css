@@ -3,7 +3,7 @@
   height: 60px;
   background-color: #ea6b0b;
   color: #eeeeee;
-  font-family: Rubik, sans-serif;
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -17,10 +17,18 @@
 }
 
 .link {
-  color: #eeeeee;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.link:hover {
+  border-bottom: 1px solid #722183;
+  color: #722183;
 }
 
 .text-footer {
+  text-align: center;
+  color: #fff;
   padding-left: 4%;
   padding-right: 4%;
 }

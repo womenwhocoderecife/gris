@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import InputMask from "react-input-mask";
 import PageLayout from "../../components/PageLayout";
 import sendMail from "../../services/sendEmail";
-import "./voluntario.css";
+import "./volunteer.css";
 
 export default function Volunteer() {
   const [values, setValues] = useState({});
