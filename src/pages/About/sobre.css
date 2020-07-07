@@ -1,0 +1,45 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0;
+  justify-content: space-between;
+}
+
+.about-description {
+  padding: 0 20px;
+  text-align: justify;
+  max-width: 100%;
+  font-family: "Rubik";
+}
+
+.image-about {
+  padding: 40px 10px 0px 10px;
+  align-self: center;
+  max-width: 500px;
+}
+
+@media (min-width: 400) {
+  .image-about {
+    /* padding: 0px 10px; */
+    align-self: center;
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 912px) {
+  .about-container {
+    flex-direction: row;
+  }
+
+  .about-description {
+    padding: 0 20px;
+    text-align: justify;
+    max-width: 50%;
+  }
+
+  .image-about {
+    padding: 0 40px;
+    align-self: center;
+    max-width: 500px;
+  }
+}
