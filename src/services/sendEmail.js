@@ -8,7 +8,7 @@ export default async function SendMail({
   atividades,
 }) {
   let template_params = {
-    to_email: "willanylp@gmail.com",
+    to_email: "grisespacosolidario@gmail.com",
     from_name: nome,
     from_email: email,
     message_html: `${nome} deseja ser voluntário(a) 

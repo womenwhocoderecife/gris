@@ -41,107 +41,79 @@
 }
 
 .services .services-card {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+
   display: grid;
-  grid-gap: 24px;
-  margin-left: 36px;
-  margin-right: 14px;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  font-family: "Rubik";
+  text-align: center;
 }
 
-@media (min-width: 400px) {
+@media only screen and (min-width: 500px) {
   .services .services-card {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 912px) {
-  .services {
-    display: grid;
-  }
-
-  .services h2 {
-    text-align: center;
-    font-family: "Rubik";
-    line-height: 47px;
-    color: #000;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    margin: 0;
-    margin-bottom: 44px;
-  }
-
-  .services .services-card {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 24px;
-    margin-left: 36px;
-    margin-right: 14px;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (min-width: 1919px) {
-  .services {
-    padding: 2%;
-  }
-
+@media only screen and (min-width: 850px) {
   .services .services-card {
-    margin-top: 8%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+}
+
+.card-actions {
+  background: #e49600;
+  border-radius: 8%;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+  top: 0;
+  transition: all 0.1s ease-in;
+}
+
+.card-actions:hover {
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
 }
 
 .how-to-contribute {
   display: grid;
   background-color: #e49600;
-  padding: 5%;
+  padding-bottom: 5%;
   margin-top: 44px;
 }
-
-.how-to-contribute h2 {
-  text-align: center;
-  font-family: "Rubik";
-  line-height: 47px;
-  color: #fff;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  margin: 0;
-  margin-top: 44px;
-  margin-bottom: 44px;
-}
-
 .how-to-contribute .icons {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+
   display: grid;
-  grid-gap: 24px;
-  margin-left: 36px;
-  margin-right: 14px;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  font-family: "Rubik";
+  text-align: center;
 }
 
-@media (min-width: 400px) {
+@media only screen and (min-width: 500px) {
   .how-to-contribute .icons {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (min-width: 912px) {
-  .how-to-contribute {
-    display: grid;
-  }
-
-  .how-to-contribute h2 {
-    text-align: center;
-    font-family: "Rubik";
-    line-height: 47px;
-    color: #fff;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    margin: 0;
-    margin-bottom: 44px;
-  }
-
+@media only screen and (min-width: 850px) {
   .how-to-contribute .icons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 24px;
-    margin-left: 36px;
-    margin-right: 14px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
@@ -196,6 +168,9 @@
   display: flex;
   flex-direction: row;
   margin: 0px 0px 0px 5px;
+}
+.social-itens a {
+  width: min-content;
 }
 
 .social-itens img {

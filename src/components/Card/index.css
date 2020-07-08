@@ -1,11 +1,12 @@
 .card {
+  align-items: center;
+  justify-content: flex-end;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-.card label:hover {
-  color: #ea6b0b;
-  cursor: pointer;
+  min-height: 100%;
+  position: relative;
+  top: 0;
+  transition: all 0.1s ease-in;
 }
 
 .card img {
@@ -23,37 +24,6 @@
   font-weight: bold;
 }
 
-@media (min-width: 400px) {
-  .card img {
-    width: 54%;
-    justify-self: center;
-  }
-
-  .card label {
-    font-size: 1em;
-  }
-}
-
-@media (min-width: 912px) {
-  .card {
-    align-self: baseline;
-  }
-  .card label:hover {
-    color: #ea6b0b;
-    cursor: pointer;
-  }
-
-  .card img {
-    width: 64%;
-    justify-self: center;
-  }
-
-  .card label {
-    color: #565050;
-    text-transform: uppercase;
-    font-family: "Rubik";
-    text-align: center;
-    font-size: 1em;
-    justify-self: center;
-  }
+.card:hover {
+  color: #ea6b0b;
 }

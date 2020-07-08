@@ -132,9 +132,30 @@ export default function Home() {
             <div className="social">
               <p>Acompanhe nossas redes:</p>
               <div className="social-itens">
-                <img src={facebook} alt="Ícone do globo terra" />
-                <img src={instagram} alt="Ícone do globo terra" />
-                <img src={youtube} alt="Ícone do globo terra" />
+                <a
+                  href="https://www.facebook.com/gris.solidario"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Facebook Gris Solidário"
+                >
+                  <img src={facebook} alt="Ícone do facebook" />
+                </a>
+                <a
+                  href="https://www.instagram.com/gris.solidario/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Instagram Gris Solidário"
+                >
+                  <img src={instagram} alt="Ícone do instagram" />
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UC7-xsn23DJzy_MgudCehX7g"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Youtube Gris Solidário"
+                >
+                  <img src={youtube} alt="Ícone do youtube" />
+                </a>
               </div>
             </div>
           </div>

@@ -14,6 +14,7 @@ export default function Footer() {
             <a
               href="http://womendevprojects.com.br/"
               target="_blank"
+              rel="noopener noreferrer"
               className="link"
             >
               {" "}
