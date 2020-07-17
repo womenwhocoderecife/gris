@@ -126,7 +126,7 @@ export default function Home() {
             </div>
             <div className="map-description-itens">
               <img src={phone} alt="Ícone de telefone" />
-              <p>(81) 3241.8765</p>
+              <p>(81) 99766-4791</p>
             </div>
 
             <div className="social">
