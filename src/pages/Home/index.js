@@ -75,14 +75,14 @@ export default function Home() {
           <Card
             image={iconeVoluntario}
             text="Voluntário"
-            linkTo="/voluntario"
+            linkTo="/queroservoluntario"
             textColor="#FFF"
             width="44%"
           />
           <Card
             image={iconeDoacoes}
             text="Doações"
-            linkTo="/doar"
+            linkTo="/querodoar"
             textColor="#FFF"
             width="44%"
           />
