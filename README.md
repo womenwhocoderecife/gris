@@ -2,7 +2,7 @@
 
 Gris, que significa amuleto de proteção e sorte, é um projeto que tem a missão de apoias as pessoas em seu desenvolvimento psicossocial, através de serviços e atividades terapêuticas. Sua atuação é fundamentada nos princípios da compaixão e da solidariedade. Atendendo assim, famílias em situação de vulnerabilidade socioeconômica, com foco em crianças e adolescentes (5 à 15 anos) e suas mães.
 
-Site: http://grissolidario.com.br/
+Site: http://www.grissolidario.com.br/
 
 ## EQUIPE
 
