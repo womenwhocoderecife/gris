@@ -27,7 +27,7 @@ export default function Donation() {
         <p className="textBody">
           As doações podem ser entregues no próprio espaço, ou podemos ver uma
           maneira de ir buscá-las, para isso entrar em contato em (81)
-          3241.8765.{" "}
+          99766-4791.{" "}
         </p>
         <p className="textBody">
           Para doações em dinheiro, transferir para a conta:
